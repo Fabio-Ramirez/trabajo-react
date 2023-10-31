@@ -39,25 +39,29 @@ function App() {
               </ul>
             </div>
           </nav>
+        </div>
+      </div>
 
-          <div className="row mt-3">
-            <div className='col-3'>
-              <Aside />
-            </div>
-            <div className="col-9">
-              <Routes>
-                <Route path="/" element={<HomeComponent />} />
-                <Route path="/ingreso" element={<IngresoComponent />} />
-                <Route path="/gasto" element={<GastoComponent />} />
-              </Routes>
-            </div>
+      <div className="container dimension">
+        <div className="row mt-2">
+          <div className='col-3'>
+            <Aside />
+          </div>
+          <div className="col-9">
+            <Routes>
+              <Route path="/" element={<HomeComponent />} />
+              <Route path="/ingreso" element={<IngresoComponent />} />
+              <Route path="/gasto" element={<GastoComponent />} />
+            </Routes>
           </div>
         </div>
-        <div className="mt-0">
-          <Footer />
-        </div>
-
       </div>
+
+
+      <div className="mt-0">
+        <Footer />
+      </div>
+
 
 
     </Router>

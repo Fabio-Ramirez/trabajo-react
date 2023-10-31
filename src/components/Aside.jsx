@@ -10,6 +10,8 @@ const Aside = () => {
                 <li>Ingresos mensuales: $3,000</li>
                 <li>Gastos mensuales: $2,000</li>
                 <li>Ahorros: $5,000</li>
+                <li>Creditos: $1,000</li>
+                <li>Inversion: $2,000</li>
             </ul>
         </aside>
     );

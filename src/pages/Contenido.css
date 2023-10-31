@@ -1,6 +1,49 @@
 /* styles.css */
-.fondo {
-    background-image: url('../assets/fondo.jpg');
+h2,
+p {
+    color: rgba(8, 8, 8, 1);
+}
+
+.fondo-principal {
+    background-image: url('../assets/fondo2.png');
+    /* Reemplaza 'nombre-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+
+    background-size: cover;
+
+    /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center center;
+
+    padding: 20px;
+    /* Añade relleno para que el contenido no esté pegado al borde del fondo */
+    border-radius: 5px;
+    /* Opcional: Agrega esquinas redondeadas */
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.fondo-ingreso {
+    background-image: url('../assets/ingreso.jpg');
+    /* Reemplaza 'nombre-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center center;
+    /* Centra la imagen en el contenedor */
+    color: rgb(29, 27, 27);
+    /* Ajusta el color del texto para que sea legible en la imagen de fondo */
+
+    /* Puedes cambiar este color al que prefieras */
+    padding: 20px;
+    /* Añade relleno para que el contenido no esté pegado al borde del fondo */
+    border-radius: 5px;
+    /* Opcional: Agrega esquinas redondeadas */
+    height: 100%;
+    width: 100%;
+}
+
+.fondo-gastos {
+    background-image: url('../assets/gasto.jpg');
     /* Reemplaza 'nombre-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
     background-size: cover;
     /* Ajusta la imagen para cubrir todo el contenedor */
