@@ -60,3 +60,52 @@ p {
     height: 100%;
     width: 100%;
 }
+
+.formulario {
+    color: rgb(254, 242, 76);
+    size: 3rem;
+}
+
+.titulo-ingreso {
+    font-size: 24px;
+    /* Tamaño del texto */
+    font-weight: bold;
+    /* Peso del texto (negrita) */
+    text-transform: uppercase;
+    /* Convertir el texto a mayúsculas */
+    text-align: center;
+    color: #2bff00;
+    /* Color del texto, puedes ajustarlo según tus preferencias */
+    margin-bottom: 3px;
+    /* Margen inferior para separar del contenido siguiente */
+}
+
+.titulo-gasto {
+    font-size: 24px;
+    /* Tamaño del texto */
+    font-weight: bold;
+    /* Peso del texto (negrita) */
+    text-transform: uppercase;
+    /* Convertir el texto a mayúsculas */
+    text-align: center;
+    color: #0d0d0d;
+    /* Color del texto, puedes ajustarlo según tus preferencias */
+    margin-bottom: 3px;
+    /* Margen inferior para separar del contenido siguiente */
+}
+
+.formulario-gasto {
+    color: rgb(13, 13, 13);
+    size: 3rem;
+}
+
+.custom-h4 {
+    color: rgba(0, 0, 0, 0.97);
+    font-weight: 800;
+}
+
+
+input.input-gasto {
+    background-color: aqua;
+    color: aqua;
+}

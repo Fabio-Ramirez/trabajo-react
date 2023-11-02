@@ -13,12 +13,12 @@ const Contenido = () => {
                 <p>Comenzemos...</p>
             </div>
 
-            <div className='container' style={{ marginTop: '4rem' }}>
+            <div className='container d-flex justify-content-end' style={{ marginTop: '4rem' }}>
                 <div className="row ">
-                    <div className='col-2'>
+                    <div className='col-6'>
                         <Link to='/ingreso' className='btn btn-secondary'>Ingresos</Link>
                     </div>
-                    <div className='col-2'>
+                    <div className='col-5'>
                         <Link to='/gasto' className='btn btn-secondary'>Gastos</Link>
                     </div>
                 </div>
